@@ -32,6 +32,9 @@ while opcao != "3":
     print('Quando acompanham verbos que indicam destino \033[1m(ir, voltar, vir)\033[0m.\nExemplos:')
     print('Fui \033[1mà\033[0m padaria.')
     print('Voltei \033[1mà\033[0m loja')
+    print('\nQuando o lugar tem nome proprio, usamos uma regra para determinar se tem ou não a crase: se você vai "a" e volta "da" há crase. Se você vai "a" e volta "de" não há crase.\nExemplos:')
+    print('Vou \033[1mà\033[0m Bahia -> Voltei da Bahia (tem crase)')
+    print('Vou a Brasília -> Voltei de Brasília (não tem crase)')
     input('Aperte Enter para continuar')
     limpa()
     print('Nas locuções adverbiais, prepositivas e conjutivas.\nExemplos:')
@@ -53,8 +56,8 @@ while opcao != "3":
     print('A reunião será \033[1màs\033[0m 10:40h.')
     print('Saio do IFAL \033[1màs\033[0m 12:20.')
     print('Por outro lado, quando acompanhadas de preposições \033[1m(para, desde, após, perante, com)\033[0m, não se utiliza a crase.')
-    print('Ficamos na reunião desde \033[1màs\033[0m 11:00')
-    print('Saímos do IFAL após \033[1màs\033[0m 18:00')
+    print('Ficamos na reunião desde \033[1mas\033[0m 11:00')
+    print('Saímos do IFAL após \033[1mas\033[0m 18:00')
     input('Aperte Enter para continuar')
     limpa()
     print('Diante dos Pronomes Relativos \033[1m"A qual" / "As quais"/033[0m.\nExemplos:')
@@ -93,4 +96,41 @@ while opcao != "3":
     input('Aperte Enter para continuar')
     limpa()
     print('Quando o \033[1m"A"\033[0m estiver no singular e a palavra seguinte no plural.\nExemplo:')
-    print('Não me refiro a mulheres sem caráter.')
+    print('Não me refiro \033[1ma\033[0m mulheres sem caráter.')
+    input('Aperte Enter para continuar')
+    limpa()
+
+  if opcao == "2":
+    limpa()
+    print('Agora que você já aprendeu todas as regras de quando usar a crase, vamos testar seus conhecimentos com algumas questões!')
+    input('Aperte Enter para continuar')
+    limpa()
+
+    questoes = [
+      {
+        print('O acento grave indicativo da crase está corretamenre empregado em:\nA) É preciso estar atento \033[1màs\033[0m coisas boas da vida.\nB) Gostaria de poder viver melhor o meu dia \033[1mà\033[0m dia.\nC) As decisões \033[1màs\033[0m quais citei vão transformar minha vida.\nD) O parque ecológico localiza-se \033[1mà\033[0m três quilômetros daqui.')
+      }
+    ]
+
+  def jogar_em_ordem():
+    limpa()
+    
+    # enumerate(banco_questoes, 1) começa a contar a partir do 1 para o usuário
+    for numero, q in enumerate(questoes, 1):
+        print(f"--- QUESTÃO NÚMERO {numero} DE {len(questoes)} ---")
+        print(q["pergunta"])
+        
+        for opcao in q["opcoes"]:
+            print(opcao)
+            
+        resposta = input("\nSua resposta: ").strip().upper()
+        
+        if resposta == q["correta"]:
+            print("\033[32mCorreto!\033[0m\n")
+        else:
+            print(f"\033[31mErrou! A certa era {q['correta']}\033[0m\n")
+            
+        input("Aperte Enter para ir para a próxima...")
+        limpa()
+
+jogar_em_ordem()
