@@ -137,7 +137,7 @@ adequadamente as lacunas é: """,
             "correta": "A"
     },
     {
-        "pergunta": """Quantas crases devem ser usadas na
+        "pergunta": """(OBJETIVA) Quantas crases devem ser usadas na
 frase: “A noite, fez tudo as pressas para
 logo ir a praça.”?""",
         "opções": [
@@ -145,6 +145,38 @@ logo ir a praça.”?""",
             "B) Duas",
             "C) Três",
             "D) Nenhuma"
+            ],
+            "correta": "C"
+    },
+    {
+        "pergunta": """(INSTITUTO MAIS) Declaram-se favor da
+medida e alinhados
+que perguntaram sobre a alteração da
+tarifa partir do
+próximo mês.\n
+De acordo com a norma-padrão da
+Língua Portuguesa e quanto ao uso da
+crase, assinale a alternativa que
+preenche correta e respectivamente as
+lacunas.""",
+        "opção": [
+            "A) à / àqueles / à",
+            "B) a / aqueles / à",
+            "C) à / àqueles / a§",
+            "D) a / àqueles / a"
+            ],
+            "correta": "D"
+    },
+    {
+        "pergunta": """De acordo com a norma-padrão da
+Língua Portuguesa e quanto ao uso ou
+não da crase, assinale a alternativa
+correta.""",
+        "opção": [
+            "A) Ninguém gosta de pegar mais trânsito as sextas-feiras.",
+            "B) No convite estava bem claro que eram trajes à rigor",
+            "C) Preferimos os políticos que fazem àqueles que só prometem.",
+            "D) Com os indícios abundantes,chegaram a rápida resolução do caso."
             ],
             "correta": "C"
     }
