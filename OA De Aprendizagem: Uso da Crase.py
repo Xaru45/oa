@@ -6,42 +6,162 @@ def limpa():
 # VETOR DE QUESTÕES
 questoes = [
     {
-        "pergunta": "O acento grave indicativo da crase está corretamente empregado em:",
-        "opcoes": [
-            "A) É preciso esta
-            
-            
-            r atento \033[1màs\033[0m coisas boas da vida.",
-            "B) Gostaria de poder viver melhor o meu dia \033[1mà\033[0m dia.",
-            "C) As decisões \033[1màs\033[0m quais citei vão transformar minha vida.",
-            "D) O parque ecológico localiza-se \033[1mà\033[0m três quilômetros daqui."
+        "pergunta": "(Oficial de Justiça/SP) Assinale a alternativa onde o sinal indicativo da crase foi usado inadequadamente:",
+        "opções": [
+            "A) Prefiro esta bolsa àquela.",
+            "B) Isto é prejudicial à saúde.",
+            "C) Escrevia à Machado de Assis.",
+            "D) As lágrimas caíam uma à uma de seus olhos."
         ],
         "correta": "A"
     },
     {
-        "pergunta": "resposta b teste",
-        "opcoes": [
-            "A) a",
-            "B) b",
-            "C) c",
-            "D) d"
+        "pergunta": "(Banco do Brasil) Opção que preenche corretamente as lacunas: O gerente dirigiu-se ___ sua sala e pôs-se ___ falar ___ todas as pessoas convocadas.",
+        "opções": [
+            "A) à - à - à",
+            "B) a - à - à",
+            "C) à - a - a",
+            "D) a - a - à"
+        ],
+        "correta": "C"
+    },
+    {
+        "pergunta": "(Banespa) Assinale a alternativa que preenche corretamente as lacunas do texto ao lado: Recorreu ___ irmã e ___ ela se apegou como ___ uma tábua de salvação.",
+        "opções": [
+            "A) à - à - a",
+            "B) à - a - à",
+            "C) a - a - a",
+            "D)  à - a - a"
+        ],
+        "correta": "D"
+    },
+    {
+        "pergunta": "(Cesgranrio) Assinale a frase em que à ou às está mal empregado.",
+        "opções": [
+            "A) Amores à vista.",
+            "B) Referi-me às sem-razões do amor.",
+            "C) Submeteram o amor à provações difíceis.",
+            "D) Estava meu coração à mercê das paixões."
+        ],
+        "correta": "C"
+    },
+    {
+        "pergunta": "(FEI) Assinalar a alternativa que preenche corretamente as lacunas das seguintes orações:\n\nI. Precisa falar ___ cerca de três mil operários.\nII. Daqui ___ alguns anos tudo estará mudado.\nIII. ___ dias está desaparecido.\nIV. Vindos de locais distantes, todos chegaram ___ tempo ___ reunião.",
+        "opções": [
+        "A) a - a - há - a - à",
+        "B) à - a - a - há - a",
+        "C) a - à - a - a - há",
+        "D) há - a - à - a - a"
+        ],
+        "correta": "A"
+    },
+    {
+        "pergunta": "(FGV) Assinale a alternativa em que está correto o uso do acento indicativo de crase:",
+        "opções": [
+        "A) O autor se comparou à alguém que tem boa memória.",
+        "B) Ele se referiu às pessoas de boa memória.",
+        "C) As pessoas aludem à uma causa específica.",
+        "D) Ele passou a ser entendido à partir de suas reflexões sobre a memória."
         ],
         "correta": "B"
+    },
+    {
+        "pergunta": "(Escrivão.Pol./SP) A alternativa em que o sinal de crase não procede é:",
+        "opções": [
+        "A) À exceção da Bandeirantes, as outras emissoras de televisão detêm a ampla liderança com percentuais fabulosos.",
+        "B)  Está presente a cineasta das cidades brasileiras à quem a porcentagem de 7% surpreendeu.",
+        "C) Os dados da pesquisa referem-se às cenas, certamente sem paralelo, em qualquer outro lugar no mundo.",
+        "D) Cresce, às escondidas, o número de cidades recebendo imagens de televisão, ameaçadoras dos valores ético-culturais."
+        ],
+        "correta": "B"
+    },
+    {
+        "pergunta": "(FASP) Assinale a alternativa com erro de crase:",
+        "opções": [
+        "A) Refiro-me à Roma antiga, na qual viveu César.",
+        "B) Fui à Lisboa de meus avós, pois gosto da Lisboa de meus avós.",
+        "C) Já não agrada ir a Brasília. A gasolina…"
+        "D) Nenhuma das alternativas está errada."
+        ], 
+        "correta": "B"
+    },
+    {
+        "pergunta": "(ITA) Analisando as sentenças:\n\nI. A vista disso, devemos tomar sérias medidas.\nII. Não fale tal coisa as outras.III.\n Dia a dia a empresa foi crescendo.\nIV. Não ligo aquilo que me disse.\n\nPodemos deduzir que:",
+        "opções": [
+        "A) Apenas a sentença III não tem crase.",
+        "B) As sentenças III e IV não têm crase.",
+        "C) Todas as sentenças têm crase.",
+        "D) Nenhuma sentença tem crase."
+        ],
+        "correta": "A"
+    },
+    {
+        "pergunta": """(MARANATHA) No excerto abaixo, complete as lacunas
+com a(s) ou à(s).\n
+“Ao reconhecer aos povos indígenas o
+direito ___ terras que habitam, ___
+Constituição Federal de 1988 favoreceu
+processos de demarcação e
+delimitação de territórios, que
+continuam ___ ser feitos até hoje. Em
+todas ___ regiões do Brasil, ___
+reivindicações geraram uma profusão
+de relatórios, laudos e pareceres,
+produzidos pelos grupos técnicos (GT)
+
+que realizam os estudos etno-
+históricos, antropológicos, ambientais e
+
+cartográficos exigidos pela legislação.
+Em cada uma dessas iniciativas, consta
+um elemento em comum: os mapas.
+[...]”
+VIANA, Diego. Mapas ajudam a
+reconhecer terras indígenas e
+quilombolas. Pesquisa Fapesp, maio de
+2023. Disponível
+em: https://revistapesquisa.fapesp.br/m
+
+apas-ajudam-a-reconhecer-terras-
+indigenas-equilombolas/. Acesso em: 14
+
+mai. 2023.
+A sequência que preenche
+adequadamente as lacunas é: """,
+        "opções": [
+            "A) as | à | à | às | às",
+            "B) às | a | a | as | as",
+            "C) às | à | a | às | as",
+            "D) as | a | à | as | às"
+            ],
+            "correta": "A"
+    },
+    {
+        "pergunta": """Quantas crases devem ser usadas na
+frase: “A noite, fez tudo as pressas para
+logo ir a praça.”?""",
+        "opções": [
+            "A) Uma",
+            "B) Duas",
+            "C) Três",
+            "D) Nenhuma"
+            ],
+            "correta": "C"
     }
-    
+
 ]
 
 def jogar_em_ordem():
     limpa()
     print('Agora que você já aprendeu todas as regras de quando usar a crase, vamos testar seus conhecimentos com algumas questões!')
-    input('\nAperte Enter para começar...')
+    input('\nAperte Enter para começar')
     limpa()
     
     for numero, q in enumerate(questoes, 1):
         print(f"--- QUESTÃO NÚMERO {numero} DE {len(questoes)} ---")
-        print(q["pergunta"] + "\n")
+        print(q["pergunta"], flush=True)
         
-        for opcao in q["opcoes"]:
+        for opcao in q["opções"]:
             print(opcao)
             
         resposta = input("\nSua resposta (A, B, C ou D): ").strip().upper()
