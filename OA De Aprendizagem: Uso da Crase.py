@@ -282,7 +282,7 @@ respectivamente os seguintes vocábulos:""",
         "pergunta": """(UFPR) Quais as formas que completam, pela ordem, as lacunas das frases seguintes?
 
 Daqui ___ pouco vai começar o exame; Compareci ___ cerimônia de posse do novo governador;
-Não tendo podido ir ___ faculdade hoje, prometo assistir ___ todas as aulas amanhã."""
+Não tendo podido ir ___ faculdade hoje, prometo assistir ___ todas as aulas amanhã.""",
             "opções": [
                 "A)  à - a - a - à",
                 "B) há - na - à - a",
@@ -291,6 +291,188 @@ Não tendo podido ir ___ faculdade hoje, prometo assistir ___ todas as aulas ama
                 ],
                 "correta": "D"
 
+    },
+    {
+        "pergunta": "(Unifor) Marque a alternativa em que o sinal de crase está empregado em todos os casos que é necessário.",
+        "opções": [
+            "A) A família ficou à mercê do frio, a despeito do fogo que estava a arder.",
+            "B) O vento entrava à vontade restando a família a expectativa de que acontecesse logo.",
+            "C) Falavam à beça, mas talvez não se entendessem à contento.",
+            "D)  A cachorra ficou à porta, à olhar as brasas."
+            ],
+            "correta": "A"
+    },
+    {
+        "pergunta": """ (OBJETIVA)
+“Terrível”, ela diz, aos prantos. “Sabe
+aquele cara, Michael, com quem eu
+estava saindo? Bem, ele é o primeiro
+homem por quem eu me interessei
+desde o meu divórcio. Ontem ______
+noite ele me disse que eu estava
+pressionando muito e que ele só quer
+amizade. Estou devastada.”
+Você suspira e diz: “Bom, para ser bem
+honesta, isso provavelmente aconteceu ______
+você é velha, feia e
+chata, sem falar que é carente e
+dependente. E está pelo menos 10 quilos
+acima do peso. Eu simplesmente
+desistiria agora _____ de fato
+não há esperança de que você encontre
+alguém que vá amá-la. Francamente,
+você não merece!”. Você falaria assim
+com alguém de quem gosta? É claro
+que não. Mas, estranhamente, esse é
+exatamente o tipo de coisa que dizemos _____
+nós mesmos em tais situações
+- ou ainda pior. Com autocompaixão,
+aprendemos a falar com nós mesmos
+
+como um bom amigo. “Sinto muito.
+Você está bem? Deve estar muito
+chateada. Lembre-se de que eu estou
+sempre aqui e que gosto muito de você.
+Há alguma coisa que eu possa fazer
+para ajudar?”
+Embora uma maneira simples de
+pensar sobre autocompaixão seja tratar
+a si mesmo como você trataria um bom
+amigo, a definição mais completa
+envolve três elementos essenciais que
+mobilizamos quando estamos sofrendo:
+autobondade, humanidade
+compartilhada e mindfulness.
+(Fonte: Manual de Mindfulness e
+Autocompaixão − adaptado.)\n
+Assinalar a alternativa que preenche as
+lacunas do texto CORRETAMENTE:""",
+            "opções": [
+                "A) a | porque | por que | à",
+                "B) a | por que | porque | à",
+                "C) à | por que | por que | a",
+                "D) à | porque | porque | a"
+                ],
+                "correta": "D"
+    },
+    {
+        "pergunta": """(FUNDEPES) Marechal Deodoro é um município
+brasileiro do estado de Alagoas. Sua
+população estimada em 2016 era de
+51.715 habitantes de acordo com o IBGE.
+O município faz parte da Região
+Metropolitana de Maceió.
+Foi fundada em 05 de agosto de 1591
+com a denominação de Sesmaria de
+Santa Madalena do Sumaúma, foi
+doado a Diogo de Melo Castro com os
+seguintes limites: Cinco léguas do litoral
+da Pajuçara ao porto do Francês; Sete
+léguas de frente a fundos para o sertão
+e mais quatro léguas da boca do rio
+Paraíba. Em 12 de abril de 1636 passou a
+ser denominada de Vila Santa Madalena
+da Lagoa do Sul. Em 16 de setembro de
+1817 a mesma passou a ser a Capital da
+província das Alagoas. Em 08 de março
+de 1823 foi elevada a cidade. O
+município foi criado em 09 de novembro
+de 1939, com a denominação de
+Marechal Deodoro, em homenagem ao
+Marechal Deodoro da Fonseca,
+alagoano que foi o primeiro presidente
+da república do Brasil. Em 16 de
+setembro de 2006, foi considerada pelo
+Ministério da Cultura como Patrimônio
+Histórico Nacional, em virtude do seu
+passado e de ter sido berço do Marechal
+Deodoro da Fonseca, proclamador da
+República Brasileira.
+Disponível em:
+<https://www.marechaldeodoro.al.gov.b
+r/a-cidade/historia/>. Acesso em: 21
+mar. 2023.\n
+Em relação às regras formais do uso do
+acento indicativo de crase, dadas as
+afirmativas
+I. No trecho: “Sete léguas de
+frente a fundos para o sertão e mais
+quatro léguas da boca do rio Paraíba”,
+há uma infração quanto à ausência do
+sinal de crase em “a", já que o
+enunciado apresenta uma locução
+adverbial feminina.\n
+II. Na frase: “Em 08 de março de 1823 foi
+elevada a cidade" ocorrência do sinal
+indicativo de crase no “a” é obrigatória.\n
+III. Em: “foi doado a Diogo de Melo Castro
+com os seguintes limites”, não ocorre
+crase, porque o “a” está diante de uma
+palavra masculina.\n
+verifica-se que está/ão correta/s""",
+            "opções": [
+                "A) I, apenas.",
+                "B) III, apenas.",
+                "C) I e II, apenas.",
+                "D) II e III, apenas."
+                ],
+                "correta": "D"
+    },
+    {
+        "pergunta": "(Unicenp-PR) Qual a alternativa que aponta a frase incorreta quanto ao acento indicativo da crase?",
+        "opções": [
+            "A) Uma mulher deu à luz sobre uma pia enquanto o dinheiro do SUS (Sistema Único de Saúde) é desviado para comprar chope e salgadinhos.",
+            "B) Esse expediente levou à lastimável aprovação do IPMF.",
+            "C) À absoluta ineficiência do sistema de arrecadação, soma-se a má aplicação dos recursos públicos.",
+            "D) A questão social continua prioritária demais para ser relegada à segundo plano."
+            ],
+            "correta": "D"
+    },
+    {
+        "pergunta": """Analise as frases.
+
+I. Ontem, fui até a escola para visitar velhos amigos.
+Ontem, fui até à escola para visitar velhos amigos.
+
+II. Ontem, passei a noite na casa da minha prima.
+Ontem, passei à noite na casa da minha prima.
+
+III. Ontem, entreguei o relatório a minha supervisora.
+Ontem, entreguei o relatório à minha supervisora.
+
+Dentre os pares de frases apresentados, a estrutura frasal em que se verifica alteração de sentido da segunda frase em relação à primeira está contida em:""",
+
+            "opções": [
+                "A) I, apenas.",
+                "B) II, apenas.",
+                "C) I e III, apenas.",
+                "D) II e III, apenas."
+                ],
+                "correta": "B"
+
+    },
+    {
+        "pergunta": "(UFPR) Em qual alternativa o vocábulo a deve receber acento grave?",
+        "opções": [
+            "A) Pintou o quadro a óleo.",
+            "B) Fomos a uma aldeia.",
+            "C) Dirigiram-se a Vossa Excelência.",
+            "D) Voltou a casa paterna."
+            ],
+            "correta": "B"
+    },
+    {
+        "pergunta": """(UFPR) Quais as formas que completam, pela ordem, as lacunas das frases seguintes?
+
+Daqui ___ pouco vai começar o exame; Compareci ___ cerimônia de posse do novo governador; 
+Não tendo podido ir ___ faculdade hoje, prometo assistir ___ todas as aulas amanhã.""",
+            "opções": [
+                "A)  a - à - à - a",
+                "B) há - na - à - a",
+                "C) a - há - na - à",
+                "D) à - a - a - à"
+                ],
+                "correta": "A"
     }
 
 ]
@@ -317,18 +499,17 @@ def jogar_em_ordem():
             
         print("\n" + "-"*40)
         
-        # VALIDAÇÃO: Só aceita S ou M
         opcao_continuar = ""
-        while opcao_continuar not in ["S", "M"]:
-            opcao_continuar = input("Deseja ir para a próxima questão? (S - Sim / M - Voltar ao Menu): ").strip().upper()
+        while opcao_continuar not in ["S", "N"]:
+            opcao_continuar = input("Deseja ir para a próxima questão? (S - Sim / N - Voltar ao Menu): ").strip().upper()
             
             if opcao_continuar not in ["S", "M"]:
-                print("\033[31mOpção inválida! Digite 'S' para continuar ou 'M' para sair.\033[0m")
+                print("\033[31mOpção inválida! Digite 'S' para continuar ou 'N' para sair.\033[0m")
         
-        if opcao_continuar == "M":
+        if opcao_continuar == "N":
             limpa()
             print("Retornando ao menu principal...\n")
-            return  # Sai da função e volta direto para o menu principal
+            return 
         
         limpa()
 
