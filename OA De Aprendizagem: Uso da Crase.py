@@ -3,7 +3,6 @@ import os
 def limpa():
     os.system('cls' if os.name == 'nt' else 'clear')
 
-# VETOR DE QUESTÕES
 questoes = [
     {
         "pergunta": "(Oficial de Justiça/SP) Assinale a alternativa onde o sinal indicativo da crase foi usado inadequadamente:",
@@ -159,7 +158,7 @@ Língua Portuguesa e quanto ao uso da
 crase, assinale a alternativa que
 preenche correta e respectivamente as
 lacunas.""",
-        "opção": [
+        "opções": [
             "A) à / àqueles / à",
             "B) a / aqueles / à",
             "C) à / àqueles / a§",
@@ -172,13 +171,126 @@ lacunas.""",
 Língua Portuguesa e quanto ao uso ou
 não da crase, assinale a alternativa
 correta.""",
-        "opção": [
+        "opções": [
             "A) Ninguém gosta de pegar mais trânsito as sextas-feiras.",
             "B) No convite estava bem claro que eram trajes à rigor",
             "C) Preferimos os políticos que fazem àqueles que só prometem.",
             "D) Com os indícios abundantes,chegaram a rápida resolução do caso."
             ],
             "correta": "C"
+    },
+    {
+        "pergunta": "(OBJETIVA) Há ERRO no uso da crase em:",
+        "opções": [
+            "A) O filho terminou de almoçar às pressas.",
+            "B) A família está esperando desde às 2h.",
+            "C) Todos chegaram à confraternização a tempo.",
+            "D) Às vezes as coisas acontecem como gostamos."
+            ],
+            "correta": "B"
+    },
+    {
+        "pergunta": """Leia o texto para responder à questão.
+“A Natureza da Mordida” é mistério que
+se lê com prazer de Carla Madeira
+A escritora Carla Madeira virou um
+fenômeno editorial em 2021. Seu Tudo é
+rio, publicado originalmente em 2014 e
+reeditado, foi do boca
+boca listas de mais
+vendidos no país, beirando os 150 mil
+exemplares. Foi a autora brasileira mais
+lida do ano.
+Véspera, seu romance mais recente,
+
+deu continuidade ao caminho bem-
+sucedido. E agora a expectativa está
+
+sobre A Natureza da mordida, seu livro
+do meio, que acaba de ser reeditado.
+Alguns elementos do conteúdo
+talvez ajudem entender a
+acolhida do leitorado. O interesse pela
+subjetividade das personagens, a
+curiosidade para explorar a condição
+humana, a ambiguidade e a autonomia
+das mulheres retratadas, o direito
+entregue essas personagens
+de errarem e de serem más. Na forma,
+as construções fluidas, o trabalho
+cuidadoso com a palavra, a prosa
+poética com frases altamente tatuáveis
+também ajudam.
+A Natureza da mordida repete um
+formato já conhecido na obra da autora
+– os fragmentos. Capítulos curtos,
+alguns brevíssimos, alternam a voz das
+duas protagonistas.
+
+(Gabriela Mayer.
+https://www.folha.uol.com.br/ilustrada/,
+27.01.2023. Adaptado)
+De acordo com a norma-padrão, as
+lacunas do texto devem ser
+preenchidas, respectivamente, com:""",
+
+            "opções": [
+                "A) a ... a ... à ... à",
+                "B) à ... às ... a ... a",
+                "C) a ... às ... a ... a",
+                "D) à ... à ... à ... à"
+                ],
+                "correta": "C"
+    },
+    {
+        "pergunta": """(BRB) Leia: 
+        
+“O cenário esportivo atual é favorável
+____ um patamar de profissionalismo
+muito mais inclinado ____ performance
+de alto nível. Os atletas têm tido
+compromissos comerciais e profissionais
+muito maiores,
+____ medida que elevam suas marcas
+pessoais e se mostram mais voltados
+____  prática de suas atividades em alto grau
+de exigência de mercado.”
+Pode-se dizer, quanto ao uso adequado
+ou não do acento grave, que completam
+os espaços do texto acima
+respectivamente os seguintes vocábulos:""",
+
+            "opções": [
+                "A) A – a – à – à.",
+                "B) A – à – à – à.",
+                "C) A – à – a – à.",
+                "D) À – a – a – a."
+                ],
+                "correta": "C"
+    },
+    {
+        "pergunta": "(MS CONCURSOS) Assinale a alternativa, onde o acento indicador de crase, não tem cabimento.",
+        "opções": [
+            "A) A desnutrição abre caminho às doenças.",
+            "B) Devemos aliar a teoria à prática.",
+            "C) A chuva reteve-o na escola e só mais tarde regressou à casa.",
+            "D) Fui à Casa Glória comprar uma roupa."
+            ],
+            "correta": "C"
+    },
+    {
+        "pergunta": """(UFPR) Quais as formas que completam, pela ordem, as lacunas das frases seguintes?
+
+Daqui ___ pouco vai começar o exame; Compareci ___ cerimônia de posse do novo governador;
+Não tendo podido ir ___ faculdade hoje, prometo assistir ___ todas as aulas amanhã."""
+            "opções": [
+                "A)  à - a - a - à",
+                "B) há - na - à - a",
+                "C) a - há - na - à",
+                "D) a - à - à - a"
+                ],
+                "correta": "D"
+
     }
 
 ]
