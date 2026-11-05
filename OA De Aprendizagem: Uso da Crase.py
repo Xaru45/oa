@@ -25,7 +25,7 @@ questoes = [
         "correta": "C"
     },
     {
-        "pergunta": "(Banespa) Assinale a alternativa que preenche corretamente as lacunas do texto ao lado: Recorreu ___ irmã e ___ ela se apegou como ___ uma tábua de salvação.",
+        "pergunta": "(Banespa) Assinale a alternativa que preenche corretamente as lacunas do texto ao lado: Recorreu ___ irmã \ne ___ ela se apegou como ___ uma tábua de salvação.",
         "opções": [
             "A) à - à - a",
             "B) à - a - à",
@@ -96,8 +96,7 @@ questoes = [
     },
     {
         "pergunta": """(MARANATHA) No excerto abaixo, complete as lacunas
-com a(s) ou à(s).\n
-“Ao reconhecer aos povos indígenas o
+com a(s) ou à(s).\n“Ao reconhecer aos povos indígenas o
 direito ___ terras que habitam, ___
 Constituição Federal de 1988 favoreceu
 processos de demarcação e
@@ -477,7 +476,7 @@ Não tendo podido ir ___ faculdade hoje, prometo assistir ___ todas as aulas ama
 
 ]
 
-def jogar_em_ordem():
+def ordem():
     limpa()
     print('Agora que você já aprendeu todas as regras de quando usar a crase, vamos testar seus conhecimentos com algumas questões!')
     input('\nAperte Enter para começar')
@@ -499,14 +498,14 @@ def jogar_em_ordem():
             
         print("\n" + "-"*40)
         
-        opcao_continuar = ""
-        while opcao_continuar not in ["S", "N"]:
-            opcao_continuar = input("Deseja ir para a próxima questão? (S - Sim / N - Voltar ao Menu): ").strip().upper()
+        continuar = ""
+        while continuar not in ["S", "N"]:
+            continuar = input("Deseja ir para a próxima questão? (S - Sim / N - Voltar ao Menu): ").strip().upper()
             
-            if opcao_continuar not in ["S", "M"]:
+            if continuar not in ["S", "M"]:
                 print("\033[31mOpção inválida! Digite 'S' para continuar ou 'N' para sair.\033[0m")
         
-        if opcao_continuar == "N":
+        if continuar == "N":
             limpa()
             print("Retornando ao menu principal...\n")
             return 
@@ -531,112 +530,138 @@ while opcao != "3":
     if opcao == "1":
         limpa()
         print('Vamos aprender de uma vez por todas o uso da crase!!!')
-        print('\n\nA crase é a fusão da preposição \033[1ma\033[0m com o artigo definido feminino \033[1ma\033[0m (ou \033[1mas\033[0m), ou com o início dos pronomes demonstrativos \033[1maquele(s)\033[0m, \033[1maquela(s)\033[0m, \033[1maquilo\033[0m. O sinal gráfico que marca a crase é o acento grave (`).')
-        input('\nAperte Enter para continuar...')
+        print('A crase é a fusão da preposição \033[1ma\033[0m com o artigo definido feminino \033[1ma\033[0m (ou \033[1mas\033[0m), ou com o início dos pronomes demonstrativos\n \033[1maquele(s)\033[0m, \033[1maquela(s)\033[0m, \033[1maquilo\033[0m. O sinal gráfico que marca a crase é o acento grave (`).')
+        input('\nAperte Enter para continuar')
         limpa()
         
         print('\033[1mREGRAS DE QUANDO USAR CRASE\033[0m')
         print('A crase pode ser usada nas seguintes situações:')
-        input('\nAperte Enter para continuar...')
+        input('\nAperte Enter para continuar')
         limpa()
         
-        print('\n\nAntes de palavras femininas.\nExemplos:')
+        print('Antes de palavras femininas.\nExemplos:')
         print('Fui \033[1mà\033[0m escola.')
         print('Fomos \033[1mà\033[0m praia.')
         print('Você vai \033[1mà\033[0m padaria agora?')
-        input('\nAperte Enter para continuar...')
+        input('\nAperte Enter para continuar')
         limpa()
         
         print('Quando acompanham verbos que indicam destino \033[1m(ir, voltar, vir)\033[0m.\nExemplos:')
         print('Fui \033[1mà\033[0m padaria.')
-        print('Voltei \033[1mà\033[0m loja')
+        print('Voltei \033[1mà\033[0m loja.')
         print('\nQuando o lugar tem nome próprio, usamos uma regra para determinar se tem ou não a crase: se você vai "a" e volta "da" há crase. Se você vai "a" e volta "de" não há crase.\nExemplos:')
         print('Vou \033[1mà\033[0m Bahia -> Voltei da Bahia (tem crase)')
         print('Vou a Brasília -> Voltei de Brasília (não tem crase)')
-        input('\nAperte Enter para continuar...')
+        input('\nAperte Enter para continuar')
         limpa()
         
         print('Nas locuções adverbiais, prepositivas e conjuntivas.\nExemplos:')
         print('Saímos \033[1mà\033[0m noite.')
         print('\033[1mÀ\033[0m medida que o tempo passa, aprendemos mais.')
-        input('\nAperte Enter para continuar...')
+        input('\nAperte Enter para continuar')
         limpa()
         
         print('Antes de pronomes demonstrativos \033[1m(aquela, aquele, aquilo)\033[0m.\nExemplos:')
         print('Nas férias, fui \033[1mà\033[0mquela cidade que você me indicou.')
-        print('Refere-se \033[1mà\033[0mquilo que aconteceu ontem na festa')
-        input('\nAperte Enter para continuar...')
+        print('Refere-se \033[1mà\033[0mquilo que aconteceu ontem na festa.')
+        input('\nAperte Enter para continuar')
         limpa()
         
         print('Antes da locução "à moda de" quando ela estiver subentendida.\nExemplos:')
-        print('Fez um gol \033[1mà\033[0m Pelé (faz um gol \033[1mà\033[0m moda de Pelé)')
-        print('Escreve \033[1mà\033[0m Machado de Assis (escreve \033[1mà\033[0m moda de Machado de Assis)')
-        input('\nAperte Enter para continuar...')
+        print('Fez um gol \033[1mà\033[0m Pelé. (fez um gol \033[1mà\033[0m moda de Pelé)')
+        print('Escreve \033[1mà\033[0m Machado de Assis. (escreve \033[1mà\033[0m moda de Machado de Assis)')
+        input('\nAperte Enter para continuar')
         limpa()
         
         print('Uso da crase na indicação das horas.\nExemplos:')
         print('A reunião será \033[1màs\033[0m 10:40h.')
         print('Saio do IFAL \033[1màs\033[0m 12:20.')
         print('Por outro lado, quando acompanhadas de preposições \033[1m(para, desde, após, perante, com)\033[0m, não se utiliza a crase.')
-        print('Ficamos na reunião desde \033[1mas\033[0m 11:00')
-        print('Saímos do IFAL após \033[1mas\033[0m 18:00')
-        input('\nAperte Enter para continuar...')
+        print('Ficamos na reunião desde \033[1mas\033[0m 11:00.')
+        print('Saímos do IFAL após \033[1mas\033[0m 18:00.')
+        input('\nAperte Enter para continuar')
         limpa()
         
         print('Diante dos Pronomes Relativos \033[1m"A qual" / "As quais"\033[0m.\nExemplos:')
         print('A cidade \033[1mà\033[0m qual fomos é linda. \033[1m(Quem vai, vai a algum lugar)\033[0m.')
-        input('\nAperte Enter para continuar...')
+        input('\nAperte Enter para continuar')
         limpa()
         
-        print('Agora que vimos todas as regras do uso correto da crase, veremos a seguir as situações que \033[1mNÃO\033[0m devemos usar a crase!!!')
-        input('\nAperte Enter para continuar...')
+        print('\033[1mREGRAS DE QUANDO NÃO USAR CRASE\033[0m \nAgora que vimos todas as regras do uso correto da crase, veremos a seguir as situações que \033[1mNÃO\033[0m devemos usar a crase!!!')
+        input('\nAperte Enter para continuar')
         limpa()
         
         print('Antes de palavras masculinas.\nExemplos:')
         print('Eduardo tem um carro \033[1ma\033[0m álcool.')
         print('Bernardo comprou um jipe \033[1ma\033[0m diesel.')
         print('Carliane escreve \033[1ma\033[0m lápis.')
-        input('\nAperte Enter para continuar...')
+        input('\nAperte Enter para continuar')
         limpa()
         
         print('Antes de verbos.\nExemplos:')
         print('Ele estava disposto \033[1ma\033[0m estudar.')
         print('Ela passava o dia \033[1ma\033[0m cantar.')
-        input('\nAperte Enter para continuar...')
+        input('\nAperte Enter para continuar')
         limpa()
         
         print('Antes de pronomes pessoais do caso reto e do caso oblíquo.')
         print('Os pronomes do caso reto são: \033[1meu, tu, ele, nós, vós, eles\033[0m.\nOs pronomes do caso oblíquo são: \033[1mme, mim, comigo, te, ti, contigo, se, si, o, lhe\033[0m.\nExemplos:')
-        print('Falamos \033[1ma\033[0m ela sobre o ocorrido')
+        print('Falamos \033[1ma\033[0m ela sobre o ocorrido.')
         print('A professora se referiu \033[1ma\033[0m mim.')
         print('Deram o dinheiro \033[1ma\033[0m ele?')
-        input('\nAperte Enter para continuar...')
+        input('\nAperte Enter para continuar')
         limpa()
         
         print('Antes dos pronomes demonstrativos \033[1m(isso, esse, este, esta, essa)\033[0m\nExemplos:')
-        print('Quando você aderir \033[1ma\033[0m esse plano, a mensalidade ficará com um preço menor')
+        print('Quando você aderir \033[1ma\033[0m esse plano, a mensalidade ficará com um preço menor.')
         print('A professora se referiu \033[1ma\033[0m isso que aconteceu na aula.')
-        input('\nAperte Enter para continuar...')
+        input('\nAperte Enter para continuar')
         limpa()
         
+        
         print('Entre palavras repetidas.\nExemplos:')
-        print('Dia \033[1ma\033[0m dia')
-        print('Cara \033[1ma\033[0m cara')
-        input('\nAperte Enter para continuar...')
+        print('Dia \033[1ma\033[0m dia.')
+        print('Cara \033[1ma\033[0m cara.')
+        input('\nAperte Enter para continuar')
         limpa()
+        
         
         print('Quando o \033[1m"A"\033[0m estiver no singular e a palavra seguinte no plural.\nExemplo:')
         print('Não me refiro \033[1ma\033[0m mulheres sem caráter.')
-        input('\nAperte Enter para voltar ao menu principal...')
+        input('\nAperte Enter para voltar ao menu principal')
         limpa()
-
+        
+        
+        print('\033[1mREGRAS DE CRASE FACULTATIVA\033[0m \nE para finalizar, você vai ver os casos que a crase é meramente opcional!!!')
+        input('\nAperte Enter para continuar')
+        limpa()
+        
+        
+        print('Diante de pronomes possessivos femininos.\nExemplos:')
+        print('Pergunte \033[1ma\033[0m sua mãe. \n         ou\nPergunte \033[1mà\033[0m sua mãe.')
+        input('\nAperte Enter para continuar')
+        limpa()
+        
+        
+        print('Depois da preposição \033[1m"ATÉ".\033[0m \nExemplos:')
+        print('Fomos até \033[1ma\033[0m praça. \n          ou\nFomos até \033[1mà\033[0m praça.')
+        input('\nAperte Enter para continuar')
+        limpa()
+        
+        
+        print('Antes de nomes próprios femininos.\nExemplos:')
+        print('Obedeça \033[1ma\033[0m Joana! \n        ou\nObedeça \033[1mà\033[0m Joana!')
+        input('\nAperte Enter para continuar')
+        limpa()
+        
+        
     elif opcao == "2":
-        jogar_em_ordem()
+        ordem()
 
     elif opcao == "3":
         limpa()
-        print("Bons estudos. Até à próxima!")
+        print('Bons estudos. Até à próxima!')
 
     else:
         limpa()
-        print("Opção inválida! Tente novamente.\n")
+        print('\033[31mOpção inválida! Tente novamente.\033[0m\n')
