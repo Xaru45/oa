@@ -502,7 +502,7 @@ def ordem():
         while continuar not in ["S", "N"]:
             continuar = input("Deseja ir para a próxima questão? (S - Sim / N - Voltar ao Menu): ").strip().upper()
             
-            if continuar not in ["S", "M"]:
+            if continuar not in ["S", "N"]:
                 print("\033[31mOpção inválida! Digite 'S' para continuar ou 'N' para sair.\033[0m")
         
         if continuar == "N":
