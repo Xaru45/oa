@@ -12,7 +12,7 @@ questoes = [
             "C) Escrevia à Machado de Assis.",
             "D) As lágrimas caíam uma à uma de seus olhos."
         ],
-        "correta": "A"
+        "correta": "D"
     },
     {
         "pergunta": "(Banco do Brasil) Opção que preenche corretamente as lacunas: O gerente dirigiu-se ___ sua sala e pôs-se ___ falar ___ todas as pessoas convocadas.",
@@ -82,7 +82,7 @@ questoes = [
         "C) Já não agrada ir a Brasília. A gasolina…"
         "D) Nenhuma das alternativas está errada."
         ], 
-        "correta": "B"
+        "correta": "D"
     },
     {
         "pergunta": "(ITA) Analisando as sentenças:\n\nI. A vista disso, devemos tomar sérias medidas.\nII. Não fale tal coisa as outras.III.\n Dia a dia a empresa foi crescendo.\nIV. Não ligo aquilo que me disse.\n\nPodemos deduzir que:",
@@ -132,7 +132,7 @@ adequadamente as lacunas é: """,
             "C) às | à | a | às | as",
             "D) as | a | à | as | às"
             ],
-            "correta": "A"
+            "correta": "B"
     },
     {
         "pergunta": """(OBJETIVA) Quantas crases devem ser usadas na
@@ -265,7 +265,7 @@ respectivamente os seguintes vocábulos:""",
                 "C) A – à – a – à.",
                 "D) À – a – a – a."
                 ],
-                "correta": "C"
+                "correta": "B"
     },
     {
         "pergunta": "(MS CONCURSOS) Assinale a alternativa, onde o acento indicador de crase, não tem cabimento.",
@@ -415,7 +415,7 @@ verifica-se que está/ão correta/s""",
                 "C) I e II, apenas.",
                 "D) II e III, apenas."
                 ],
-                "correta": "D"
+                "correta": "B"
     },
     {
         "pergunta": "(Unicenp-PR) Qual a alternativa que aponta a frase incorreta quanto ao acento indicativo da crase?",
@@ -458,7 +458,7 @@ Dentre os pares de frases apresentados, a estrutura frasal em que se verifica al
             "C) Dirigiram-se a Vossa Excelência.",
             "D) Voltou a casa paterna."
             ],
-            "correta": "B"
+            "correta": "D"
     },
     {
         "pergunta": """(UFPR) Quais as formas que completam, pela ordem, as lacunas das frases seguintes?
